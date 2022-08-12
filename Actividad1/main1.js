@@ -1,6 +1,7 @@
 const lista = document.getElementById('lista');
+let btn = document.getElementById('btn');
 
-btn.addEventListener('click', function handleClick(event) {
+btn.addEventListener('click', function (event) {
     event.preventDefault();
     let input = document.getElementById('input');
     let texto = document.getElementById('input').value;
